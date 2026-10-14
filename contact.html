@@ -1,1 +1,97 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Nashik | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Website header and navigation -->
+    <header class="site-header">
+        <a href="index.html" class="logo">Explore Nashik</a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰ Menu</label>
+
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="places.html">Places</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Contact page introduction -->
+    <main>
+        <section class="page-banner">
+            <h1>Contact Us</h1>
+            <p>Have questions about exploring Nashik? Get in touch.</p>
+        </section>
+
+        <!-- Contact information and form -->
+        <section class="contact-section">
+            <div class="contact-info">
+                <h2>Let's Connect</h2>
+                <p>We would love to hear from you.</p>
+
+                <div class="contact-item">
+                    <h3>Location</h3>
+                    <p>Nashik, Maharashtra, India</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>
+                        <a href="mailto:hello@example.com">
+                            hello@example.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Explore More</h3>
+                    <p>Visit our places page to discover Nashik.</p>
+                    <a href="places.html" class="secondary-button">
+                        Explore Places
+                    </a>
+                </div>
+            </div>
+
+            <!-- Simple contact form -->
+            <form class="contact-form"
+                  action="mailto:hello@example.com"
+                  method="post"
+                  enctype="text/plain">
+
+                <h2>Send a Message</h2>
+
+                <label for="visitor-name">Your Name</label>
+                <input type="text" id="visitor-name"
+                       name="Name" placeholder="Enter your name" required>
+
+                <label for="visitor-email">Your Email</label>
+                <input type="email" id="visitor-email"
+                       name="Email" placeholder="Enter your email" required>
+
+                <label for="visitor-message">Your Message</label>
+                <textarea id="visitor-message" name="Message"
+                          rows="5" placeholder="Write your message"
+                          required></textarea>
+
+                <button type="submit" class="primary-button">
+                    Send Message
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Website footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Explore Nashik | Assignment-15</p>
+    </footer>
+
+</body>
+</html>
